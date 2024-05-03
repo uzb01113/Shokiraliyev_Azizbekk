@@ -1,0 +1,48 @@
+[
+    {
+        "thumbnail": "/images/first.png",
+        "image": "/images/first.png",
+        "caption": "Car web"
+    },
+    {
+        "thumbnail": "/images/second.png",
+        "image": "/images/second.png",
+        "caption": "Result web"
+    },
+    {
+        "thumbnail": "/images/third.png",
+        "image": "/images/third.png",
+        "caption": "Teach web"
+    },
+    {
+        "thumbnail": "/images/four.png",
+        "image": "/images/four.png",
+        "caption": "Technalogies web"
+    },
+    {
+        "thumbnail": "/images/Cara.jpg",
+        "image": "/images/Cara.jpg",
+        "caption": "Cara web"
+    },
+    {
+        "thumbnail": "/images/realCo.jpg",
+        "image": "/images/realCo.jpg",
+        "caption": "RealCo web"
+    },
+    {
+        "thumbnail": "/images/Milandi.jpg",
+        "image": "/images/Milandi.jpg",
+        "caption": "Millandi web"
+    }, 
+    {
+        "thumbnail": "/images/Finsweet.jpg",
+        "image": "/images/Finsweet.jpg",
+        "caption": "Finsweet web"
+    }, 
+    {
+        "thumbnail": "/images/Finsweet2.jpg",
+        "image": "/images/Finsweet2.jpg",
+        "caption": "Finsweet web figma"
+    }
+  
+  ]

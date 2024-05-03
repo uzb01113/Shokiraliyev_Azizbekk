@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0e1226;
+}
+.container {
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 20px 30px;
+  border-bottom: 1px solid #3636f4;
+}
+.header .node h1 {
+  color: #fff;
+}
+.header nav {
+  display: none;
+}
+.text {
+  color: #eea139;
+  text-align: center;
+  padding-top: 20px;
+}
+.links ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.links ul li a:hover {
+  transform: scale(1.2);
+  color: #3636f4;
+  display: inline-block;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.rightBtn,
+.leftBtn {
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 60%;
+}
+
+.leftBtn {
+  left: 0;
+}
+
+.rightBtn {
+  right: 0;
+}
+.carousel-item {
+  width: 90%;
+  height: 90%;
+}
+.carousel-item img {
+  width: 100vh;
+}
+.carousel-item h2 {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+/* < ---------------- Responsive -------------------> */
+@media screen and (max-width: 1350px) {
+  .rightBtn {
+    margin-right: 200px;
+  }
+  .leftBtn {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .rightBtn {
+    margin-left: 400px;
+  }
+  .leftBtn {
+    margin-right: 400px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header nav {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .header nav {
+    display: block;
+  }
+  .rightBtn {
+    margin-left: 100px;
+    margin-top: 180px;
+  }
+  .leftBtn {
+    margin-right: 100px;
+    margin-top: 180px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    width: 500px;
+    height: 300px;
+  }
+}

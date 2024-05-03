@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0e1226;
+}
+.container {
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 20px 30px;
+  border-bottom: 1px solid #3636f4;
+}
+.header .node h1 {
+  color: #fff;
+}
+.links ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.links ul li a:hover {
+  transform: scale(1.2);
+  color: #3636f4;
+  display: inline-block;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-left h1 {
+  font-size: 50px;
+  padding-left: 100px;
+  color: #fff;
+}
+.body-left h1 span {
+  color: #8649ff;
+}
+.body-right {
+  margin-top: 50px;
+  margin-right: 80px;
+  border: 1px solid #3636f4;
+  width: 55%;
+  height: 580px;
+  border-radius: 15px;
+}
+.body-right p {
+  font-size: 37px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.header nav {
+  display: none;
+}
+.body-right p .colorRed {
+  color: red;
+}
+.body-right p .Coder {
+  color: #0657db;
+}
+.body-right p .padding {
+  padding-left: 90px;
+}
+.body-right p .addColor {
+  color: #eea139;
+}
+.body-right p .hirable {
+  color: #56a744;
+}
+.body-right p .addPad {
+  padding-left: 150px;
+}
+.body-right p .adpad {
+  padding-left: 200px;
+}
+.body-right p .adpadd {
+  padding-left: 80px;
+}
+.icons {
+  color: #fff;
+  margin-left: 80px;
+}
+.header nav {
+  color: #fff;
+}
+.icons a {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.icons a i {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+.icons a i:hover {
+  transform: scale(1.6);
+  display: inline-block;
+  color: #3636f4;
+}
+/* < ---------------- Responsive -------------------> */
+@media screen and (max-width: 1000px) {
+  .header nav {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .body {
+    display: block;
+    height: 700px;
+  }
+  .body-left {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  .body-right {
+    margin-left: 200px;
+    width: 70%;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body-right {
+    margin-left: 100px;
+    width: 70%;
+    height: 400px;
+  }
+  .body-left h1 {
+    font-size: 30px;
+    padding-left: 80px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 375px) {
+  .body-left {
+    display: none;
+  }
+}
